@@ -4,3 +4,6 @@
 [submodule "luci/applications/luci-app-nginx"]
 	path = luci/applications/luci-app-nginx
 	url = https://github.com/iv7777/luci-app-nginx.git
+[submodule "luci/applications/luci-app-tailscale"]
+	path = luci/applications/luci-app-tailscale
+	url = https://github.com/iv7777/luci-app-tailscale.git
