@@ -23,7 +23,12 @@ stop(){
 	fi
 }
 
-restart(){
+stop_service() {
+	rm -f "$DNSMASQ_VLMCSD"
+	/etc/init.d/dnsmasq restart 2>"/dev/null"
+}
+
+reload_service() {
 	stop
 	sleep 2
 	start
